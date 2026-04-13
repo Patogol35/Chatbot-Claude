@@ -19,16 +19,32 @@ Backend de chatbot inteligente desarrollado con Node.js y Express, que utiliza l
 
 1. Clona el repositorio:
 
-git clone https://github.com/tu-usuario/chatbot.git
+```bash
+
+git clone https://github.com/Patogol35/Chatbot
+
+```
+
+```bash
 cd chatbot
+
+```
 
 2. Instala dependencias:
 
+```bash
+
 npm install
+
+```
 
 3. Crea un archivo ".env" en la raíz:
 
+```bash
+
 ANTHROPIC_API_KEY=tu_api_key_aqui
+
+```
 
 ---
 
