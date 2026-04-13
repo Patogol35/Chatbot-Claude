@@ -4,13 +4,13 @@ Backend de chatbot inteligente desarrollado con Node.js y Express, que utiliza l
 
 ---
 
-🚀 Características
+✨ Características principales
 
-- 🧠 Conversación con memoria por usuario
-- 🤖 Integración con IA (Claude 3 Haiku)
-- ⚡ API REST rápida y ligera con Express
-- 🔐 Validaciones básicas de entrada
-- 🧩 Arquitectura modular (controllers, services, utils)
+- Conversación con memoria por usuario
+- Integración con IA (Claude 3 Haiku)
+- API REST rápida y ligera con Express
+- Validaciones básicas de entrada
+- Arquitectura modular (controllers, services, utils)
 
 
 ---
@@ -95,7 +95,7 @@ Respuesta:
 
 ---
 
-🛠️ Tecnologías
+⚙️ Tecnologías utilizadas
 
 - Node.js
 - Express
@@ -115,9 +115,9 @@ Respuesta:
 
 ---
 
-👨‍💻 Autor
+👨‍💻 Autor Jorge Patricio Santamaría Cherrez
 
-Desarrollado por Jorge Santamaría
+Máster en Ingeniería de Software y Sistemas Informáticos
 
 ---
 
