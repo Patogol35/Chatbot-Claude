@@ -74,7 +74,7 @@ http://localhost:3001
 
 🔹 GET /
 
-URL: http://localhost:3001/⁠�
+URL: http://localhost:3001/
 
 Método: GET
 
@@ -88,7 +88,7 @@ JSON
 
 🔹 POST /chat
 
-URL: http://localhost:3001/chat⁠�
+URL: http://localhost:3001/chat
 
 Método: POST
 
