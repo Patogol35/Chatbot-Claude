@@ -55,15 +55,16 @@ ANTHROPIC_API_KEY=tu_api_key_aqui
 
 ```
 
----
+5. Inicia el servidor:
 
-▶️ Uso
-
-Inicia el servidor:
+   
+```bash
 
 node server.js
 
-Servidor corriendo en:
+```
+
+6. Servidor corriendo en:
 
 http://localhost:3001
 
