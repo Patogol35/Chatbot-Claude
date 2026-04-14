@@ -72,32 +72,68 @@ http://localhost:3001
 
 📡 Endpoints
 
-GET /
+🔹 GET /
+
+URL: http://localhost:3001/
+
+Descripción:
 
 Verifica que el servidor esté activo.
 
-Respuesta:
+Método: GET
+Respuesta (200 OK):
 
-Backend funcionando 
+JSON
+{
+  "message": "Backend funcionando"
+}
 
----
+🔹 POST /chat
 
-POST /chat
+URL: http://localhost:3001/chat
 
-Envía un mensaje al chatbot.
+Descripción:
 
-Body:
+Envía un mensaje al chatbot y recibe una respuesta generada por la IA.
 
+Método: POST
+
+Headers:
+
+Content-Type: application/json
+
+Body (raw → JSON):
+
+JSON
 {
   "message": "Hola",
   "userId": "123"
 }
 
-Respuesta:
+Respuesta (200 OK):
 
+JSON
 {
   "reply": "Hola, ¿en qué puedo ayudarte?"
 }
+
+Ejemplo en Postman
+
+Selecciona método POST
+
+Ingresa la URL: http://localhost:3001/chat
+
+Ve a Body → raw → JSON
+
+Pega el JSON:
+
+JSON
+{
+  "message": "Hola",
+  "userId": "123"
+}
+
+Envía la petición 
 
 ---
 
@@ -109,15 +145,6 @@ Respuesta:
 4. Se envía a Claude AI
 5. Se devuelve la respuesta generada
 6. Se guarda la respuesta en memoria
-
----
-
-⚠️ Limitaciones actuales
-
-- ❌ La memoria es temporal (se pierde al reiniciar el servidor)
-- ❌ No hay autenticación de usuarios
-- ❌ No hay persistencia en base de datos
-- ❌ Sin control de rate limiting
 
 ---
 
