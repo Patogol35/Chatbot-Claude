@@ -28,14 +28,14 @@ Ten en cuenta que el uso de la API requiere saldo o suscripción.
 
 ```bash
 
-git clone https://github.com/Patogol35/Chatbot
+git clone https://github.com/Patogol35/Chatbot-Cloude
 
 ```
 
 2. Ingresa a la carpeta del proyecto:
 
 ```bash
-cd chatbot
+cd Chatbot-Cloude
 
 ```
 
