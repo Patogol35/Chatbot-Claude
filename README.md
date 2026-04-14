@@ -71,69 +71,34 @@ http://localhost:3001
 ---
 
 📡 Endpoints
-
 🔹 GET /
-
-URL: http://localhost:3001/
-
-Descripción:
-
-Verifica que el servidor esté activo.
-
+URL: http://localhost:3001/⁠�
 Método: GET
-Respuesta (200 OK):
-
+Función: Verifica que el servidor esté activo
+Respuesta:
 JSON
-{
-  "message": "Backend funcionando"
-}
-
+{ "message": "Backend funcionando" }
 🔹 POST /chat
-
-URL: http://localhost:3001/chat
-
-Descripción:
-
-Envía un mensaje al chatbot y recibe una respuesta generada por la IA.
-
+URL: http://localhost:3001/chat⁠�
 Método: POST
-
+Función: Envía un mensaje al chatbot y recibe una respuesta
 Headers:
-
+JSON
 Content-Type: application/json
-
-Body (raw → JSON):
-
+Body:
 JSON
-{
-  "message": "Hola",
-  "userId": "123"
-}
-
-Respuesta (200 OK):
-
+{ "message": "Hola", "userId": "123" }
+Respuesta:
 JSON
-{
-  "reply": "Hola, ¿en qué puedo ayudarte?"
-}
-
-Ejemplo en Postman
-
-Selecciona método POST
-
-Ingresa la URL: http://localhost:3001/chat
-
-Ve a Body → raw → JSON
-
-Pega el JSON:
-
+{ "reply": "Hola, ¿en qué puedo ayudarte?" }
+🧪 Uso en Postman (rápido)
+Método: POST
+URL: http://localhost:3001/chat
+Body → raw → JSON
+Pega:
 JSON
-{
-  "message": "Hola",
-  "userId": "123"
-}
-
-Envía la petición 
+{ "message": "Hola", "userId": "123" }
+Enviar 🚀
 
 ---
 
